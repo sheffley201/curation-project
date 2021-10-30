@@ -14,4 +14,9 @@ $( document ).ready(function() {
         $(".modal-title").text("How Important is Color in Website Design?");
         $(".modal-text").text("In this article, Studio 1 Designs shows why color choice is so important when designing a website. They not only show how to design a color scheme, but also how different colors can invoke different emotions a responses from your visitors. It can be easy to use a random color scheme generator online and call it a day. I've done it many times. But these random color schemes don't have the intentional emotion-invoking aspect that it so important in our websites.")
     })
+
+    $('.pwidth-button').on("click", function() {
+        $(".modal-title").text("Optimum Web Readability — Max and min width for page text");
+        $(".modal-text").text("Ben Shoemate demonstrates the importance of paragraph width to improve readability on your website. He shows many good examples as well as some bad examples to give helpful perspective. I can't think of how many times I've lost my place or started reading the same line again when paragraphs are too wide. This article is sure to help you improve readability on your website.")
+    })
 })
