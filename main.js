@@ -34,4 +34,9 @@ $( document ).ready(function() {
         $(".modal-title").text("How to Avoid Negative Emotions in Web Design");
         $(".modal-text").text("In this article, Rob Bowen explains how negative space in a web page is actually a positive thing, despite how it sounds. Positive space in your website is the actual content of the site. This text, pictures, and videos. This content needs room to breath, however, and that is where negative space comes in. This is a great article explaining how to utilize white space in your website.")
     })
+
+    $('.nav-button').on("click", function() {
+        $(".modal-title").text("How to Create a Great Navigation Bar");
+        $(".modal-text").text("In this article, Tony Ho Tran explains the different ways of handling navigation in websites, some more controversial than others. Tony gives 5 helpful tips for keeping navigation clean and simple. Navigation can be a tricky thing to get right. Too simplistic, and its hard to find what your looking for. Too complicated, you might not know what the right option is when you're trying to get somewhere. This article makes it easy to get navigation right.")
+    })
 })
