@@ -32,7 +32,7 @@ $( document ).ready(function() {
 
     $('.negative-button').on("click", function() {
         $(".modal-title").text("How to Avoid Negative Emotions in Web Design");
-        $(".modal-text").text("In this article, Rob Bowen explains how negative space in a web page is actually a positive thing, despite how it sounds. Positive space in your website is the actual content of the site. This text, pictures, and videos. This content needs room to breath, however, and that is where negative space comes in. This is a great article explaining how to utilize white space in your website.")
+        $(".modal-text").text("In this article, Rob Bowen explains how negative space in a web page is actually a positive thing, despite how it sounds. Positive space in your website is the actual content of the site. This includes text, pictures, and videos. This content needs room to breath, however, and that is where negative space comes in. This is a great article explaining how to utilize white space in your website.")
     })
 
     $('.nav-button').on("click", function() {
